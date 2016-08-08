@@ -1,0 +1,120 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:#ccc;
+	padding:0;
+	margin:0;
+	color:#333;
+}
+
+.container {
+	position:relative;
+	width: 960px;
+	margin: 0 auto;
+	background:#fff;
+}
+
+header {
+	background: #fff;
+    height: 90px;
+    margin-bottom:60px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+}
+
+#logo {
+	float: left;
+	display: block;
+	height: 90px;
+	width:120px;
+	line-height: 90px;
+	text-indent:-999em;
+}
+
+#logo.cssLogo {
+	background: transparent url('../images/logo2.png') no-repeat;
+	height:90px;
+	width:120px;
+}
+
+nav { 
+	float:left;
+	padding:0 30px; 
+}
+
+nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul li { 
+	display:inline-block; 
+}
+
+nav ul li a { 
+	display:block; 
+	padding:0 15px; 
+	line-height:90px; 
+	text-decoration:none; 
+}
+
+#intro {
+	position:relative;
+    background: url("../images/feature-bg.jpg") no-repeat center;
+    background-size: cover;
+    height:400px;
+}
+
+#intro div {
+	position:absolute;
+	top:35%;
+	left:5%;
+	width:870px;
+	background: rgba(0, 0, 0, 0.35);
+	text-align:center;
+	color:#fff;
+	
+}
+
+h1 { text-align:center }
+img { display:block; margin:0 auto; width:100%; }
+#blue { 
+	display:inline-block; 
+	background-color: #facd34;
+    color: #fff;
+    background-image: -owg-linear-gradient(#facd34,#f1aa38);
+    background-image: linear-gradient(#facd34,#f1aa38);
+/* 	background-color:#22b8f0;  */
+	padding:10px; 
+}
+
+article { padding:20px; }
+article h2,
+article h3 { color:#000 }
+article h3 { margin-bottom:0; }
+article p { margin:0; }
+
+footer { padding:10px 0; }
+footer .container { background:none; }
+
+#line { 
+	height:2px;
+	width:920px;
+	margin:40px auto;
+	background:#dadada;
+}
+
+
+
+
+
+
+
+
+
+
+
+
