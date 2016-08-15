@@ -1,0 +1,78 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+}
+
+#container {
+	max-width:1000px;
+	margin:0 auto;
+}
+
+footer {
+	background:#292f36;
+	padding: 87px 0 40px;
+}
+
+footer::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+aside {
+	float:left;
+	width:calc(100% / 12 * 6);
+}
+
+aside img {
+	vertical-align:middle;
+}
+
+aside p {
+	margin-left:5px;
+	display:inline-block;
+	color:#d9bb4b;
+}
+
+h3 {
+	font-weight:300;
+	text-transform:uppercase;
+}
+
+nav {
+	float:left;
+	width:calc(100% / 12 * 2);
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav li {
+	line-height: 23px;
+	font-size:14px;
+	color:#787878;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	margin:0;
+	padding:0;
+	background:#ededed;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	max-width:1000px;
+	margin:0 auto;
+}
+
+header::after, header ul::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+header img { float:left; }
+
+nav { float:right; padding-top:20px; }
+nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul li {
+	float:left;
+	line-height:32px;
+}
+
+nav ul li a {
+	display:block;
+	padding:0 25px;
+	font-size:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#333;
+	letter-spacing:1px;
+}
+
+nav form p {
+	display:inline-block;
+	margin:0;
+}
+
+nav label {
+	display:none;
+}
+
+nav button {
+	border:none;
+	width:24px;
+	height:24px;
+	background:url("images/search.png");
+	cursor:pointer;
+	text-indent:-9999px;
+	margin-left:25px;
+}
+
+a[href^="checkout"] {
+	width:32px;
+	height:32px;
+	background:url("images/shopping-cart.png");
+	text-indent:-9999px;
+	padding:0;
+	margin-left:10px;
+}
+
+.active a { color:#547abb; }
+
+
+
+
+
+
+
+
+
+
+

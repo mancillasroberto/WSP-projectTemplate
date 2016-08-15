@@ -1,0 +1,74 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	max-width:1000px;
+	margin:0 auto;
+}
+
+header {
+	text-align:center;
+	margin-bottom:40px;
+}
+
+h1 { 
+	font-size:36px;
+	text-transform:uppercase;
+	color:#606060;
+	letter-spacing:0.1em;
+	margin-bottom:0;
+}
+
+section {
+	float:left;
+	width:calc(100% / 4);
+	padding-left:15px;
+}
+
+section p:first-of-type { margin-bottom:0; }
+section p:last-of-type, 
+header p:last-of-type {
+	color:#3497db;
+	margin:0;
+}
+
+img {
+	max-width:100%;
+	display:block;
+}
+
+#row {
+	margin-left:-15px;
+}
+
+#row::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+
+
+
+
