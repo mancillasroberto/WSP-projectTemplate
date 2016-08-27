@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<title>WSP Project Template</title>
 		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="js/jquery-ui-1.12.0/jquery-ui.min.css"/>
 	</head>
 	<body>
 		<header>
@@ -14,6 +15,7 @@
 						<li><a href="#blue">Header</a></li>
 						<li><a href="#feature">Feature</a></li>
 						<li><a href="#overlap">Overlap</a></li>
+						<li><a href="#team">Our Team</a></li>
 						<li><a href="#footer">Footer</a></li>
 					</ul>
 				</nav>
@@ -27,12 +29,12 @@
 		</section><!-- end intro section -->
 		<section>
 			<article>
-				<h2 id="blue">Featured Component - Header</h2>
+				<h2 id="">Featured Component - Header</h2>
 				<img src="images/header.png" alt=""/>
-				<h3>What I hope to learn</h3>
-				<p>This particular header seemed a bit more advanced at first glance but I figured it would be good practice. The main questions I had were about the eCommerce cart and the search icon. As far as the search icon goes, I feel like that can be achieved with a form that is hidden and pops up once clicked. The eCommerce I feel is much more complicated then that and is something I really would like to learn more about. As if those two things weren't hard enough, I then have to worry about the logo and how to float the main navigation.</h3>
+<!-- 				<h3>What I hope to learn</h3> -->
+				<p>This particular header seemed a bit more advanced at first glance but I figured it would be good practice. The main questions I had were about the eCommerce cart and the search icon. As far as the search icon goes, I feel like that can be achieved with a form that is hidden and pops up once clicked. The eCommerce I feel is much more complicated then that and is something I really would like to learn more about. As if those two things weren't hard enough, I then have to worry about the logo and how to float the main navigation.</p>
 				<h3>How this relates to what I have/will learn in WDD</h3>
-				<p>The main header of any website is the map to your entire site. It is the user is going to navigate through your site.</p>
+				<p>The main header of any website is the map to your entire site. It is how the user is going to navigate through your site.</p>
 				<h3>How might I build this?</h3>
 				<ol>
 					<li><p>Create the component as a <code>header</code></p></li>
@@ -46,48 +48,79 @@
 			</article>
 			<hr />
 			<article>
-				<h2 id="feature">2. Feature Section</h2>
+				<span>Component 2</span>
+				<h2 id="feature">Feature Section</h2>
 				<img src="images/c-two.png" alt=""/>
-				<h3>What I hope to learn</h3>
-				<p>What I hope to practice and learn is how to correctly float each section. On top of floating the sections I want to make sure each one takes up 50% of the container it is in.</p>
-				<h3>How this relates to what I have/will learn in WDD</h3>
-				<p>Sections like the image above are good ways to show users some features the company or website offers. Many sites that I visit have sections similar to this and they help quickly convey information to the user.</p>
+				<div id="accordion">
+					<h3>What I hope to learn</h3>
+					<div>
+						<p>What I hope to practice and learn is how to correctly float each section. On top of floating the sections I want to make sure each one takes up 50% of the container it is in.</p>
+					</div>
+					<h3>How this relates to what I have/will learn in WDD</h3>
+					<div>
+						<p>Sections like the image above are good ways to show users some features the company or website offers. Many sites that I visit have sections similar to this and they help quickly convey information to the user.</p>
+					</div>
+				</div>
 				<p><a class="button" href="components/2/index.html">View Component</a></p>
 			</article>
 			<hr />
 			<article>
-				<h2 id="overlap">3. Overlapping Image</h2>
+				<span>Component 3</span>
+				<h2 id="overlap">Overlapping Image</h2>
 				<img src="images/c-three.png" alt=""/>
-				<h3>What I hope to learn</h3>
-				<p>I feel like this component here could be considered a call to action but I wasn't completely positive. One of the main things I wanted to focus on while building this was the image that overlapped the sections. This is a look I've wanted to create for some time and I thought it would be good to learn.</p>
-				<h3>How this relates to what I have/will learn in WDD</h3>
-				<p>When I cropped this component from the original site I noticed that it was towards the bottom. This stuck out to me and was another reason I chose to build it because I think it's a good idea to have a CTA to be one of the first thing users see and also the last thing they see.</p>
+				<div id="accordion">
+					<h3>What I hope to learn</h3>
+					<div>
+						<p>I feel like this component here could be considered a call to action but I wasn't completely positive. One of the main things I wanted to focus on while building this was the image that overlapped the sections. This is a look I've wanted to create for some time and I thought it would be good to learn.</p>
+					</div>
+					<h3>How this relates to what I have/will learn in WDD</h3>
+					<div>
+						<p>When I cropped this component from the original site I noticed that it was towards the bottom. This stuck out to me and was another reason I chose to build it because I think it's a good idea to have a CTA to be one of the first thing users see and also the last thing they see.</p>
+					</div>
+				</div>
 				<p><a class="button" href="components/3/index.html">View Component</a></p>
 			</article>
 			<hr />
 			<article>
-				<h2 id="Team">3. Meet Our Team</h2>
+				<span>Component 4</span>
+				<h2 id="Team">Meet Our Team</h2>
 				<img src="images/c-four.png" alt=""/>
-				<h3>What I hope to learn</h3>
-				<p>Having a meet our team or about us section is always a good idea but working with images can sometimes be tricky. When I saw this I quickly wanted to learn how to evenly space out the images and the content that goes with it to fit on one row and also how to correctly size the images and make them responsive.</p>
-				<h3>How this relates to what I have/will learn in WDD</h3>
-				<p>Adding this type of content helps make your site more personable and allows to user to relate to the team members of said company.</p>
+				<div id="accordion">
+					<h3>What I hope to learn</h3>
+					<div>
+						<p>Having a meet our team or about us section is always a good idea but working with images can sometimes be tricky. When I saw this I quickly wanted to learn how to evenly space out the images and the content that goes with it to fit on one row and also how to correctly size the images and make them responsive.</p>
+					</div>
+					<h3>How this relates to what I have/will learn in WDD</h3>
+					<div>
+						<p>Adding this type of content helps make your site more personable and allows to user to relate to the team members of said company.</p>
+					</div>
+				</div>
 				<p><a class="button" href="components/4/index.html">View Component</a></p>
 			</article>
 			<hr />
 			<article>
-				<h2 id="footer">3. Footer</h2>
+				<span>Component 5</span>
+				<h2 id="footer">Footer</h2>
 				<img src="images/c-five.png" alt=""/>
-				<h3>What I hope to learn</h3>
-				<p>This footer looked rather interesting when I first saw it. It wasn't your typical one line footer but rather seemed to have multiple navigations and also a logo. A footer may seem simple enough to make but in this case you have to make sure to give the proper width to each section and possibly float them so they can line up correctly. There are many factors that have to be considered.</p>
-				<h3>How this relates to what I have/will learn in WDD</h3>
-				<p>Footers are essential to any website and like the main header of any website allows the users to have direct access to information. Maybe information that wasn't as important or couldn't fit in the main navigation could be placed in the footer.</p>
+				<div id="accordion">
+					<h3>What I hope to learn</h3>
+					<div>
+						<p>This footer looked rather interesting when I first saw it. It wasn't your typical one line footer but rather seemed to have multiple navigations and also a logo. A footer may seem simple enough to make but in this case you have to make sure to give the proper width to each section and possibly float them so they can line up correctly. There are many factors that have to be considered.</p>
+					</div>
+					<h3>How this relates to what I have/will learn in WDD</h3>
+					<div>
+						<p>Footers are essential to any website and like the main header of any website allows the users to have direct access to information. Maybe information that wasn't as important or couldn't fit in the main navigation could be placed in the footer.</p>
+					</div>
+				</div>
 				<p><a class="button" href="components/5/index.html">View Component</a></p>
 			</article>
 		</section>
 		<footer>
 			<p class="copyright">&copy; 2016 Web Standards Project. All Rights Reserved.</p>
 		</footer>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.12.0/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
 
